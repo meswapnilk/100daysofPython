@@ -3,8 +3,6 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 
 print(states_of_america[random.randint(0, len(states_of_america)-1)])
 
-# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
-
 listnumbers = [1,2,3,4,5,6,7,8,9]
 print(listnumbers)
 listnumbers.append(10)

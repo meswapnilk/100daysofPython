@@ -15,5 +15,5 @@ def greet_with_name(name):
     print("Isn't the weather nice today?")
 
 greet()
-greet_with_name("Swapnil")
+greet_with_name("SK")
 

@@ -11,11 +11,13 @@ menu = Menu()
 
 while not user_choice == "off":
     user_choice = input(f"What would you like? ({menu.get_items()}): ").lower()
-    menuItem = menu.find_drink(user_choice)
-    if user_choice == "report":
+
+    if user_choice == "off":
+        print("Shutting Down Coffee Maker")
+    elif user_choice == "report":
         coffeeMaker.report()
-    elif menuItem is not None:
+    elif menu.find_drink(user_choice) is not None:
+        menuItem = menu.find_drink(user_choice)
         if coffeeMaker.is_resource_sufficient(menuItem):
             if moneyMachine.make_payment(menuItem.cost):
                 coffeeMaker.make_coffee(menuItem)
-            

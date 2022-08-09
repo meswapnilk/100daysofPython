@@ -7,3 +7,4 @@
 5.  [Python Package Index](https://pypi.org/)
 6.  [Prettytable Package](https://pypi.org/project/prettytable/)
 7.  [Prettytable Package Documentation](https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki)
+8.  [Steve Jobs on OOP](https://www.rollingstone.com/culture/culture-news/steve-jobs-in-1994-the-rolling-stone-interview-231132/)

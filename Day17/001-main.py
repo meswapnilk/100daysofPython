@@ -5,14 +5,16 @@ class User:
         self.username = user_name
         self.followers = 0
         self.following = 0
-    
+    # Method
     def follow(self, user):
         user.followers += 1
         self.following += 1
 
+#Passing values to constructor
 user1 = User(1, "SK")
 user2 = User(2, "AK")
 
+#Passing values to method
 user1.follow(user2)
 
 print("User 1 Details")

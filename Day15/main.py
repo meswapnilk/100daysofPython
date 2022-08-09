@@ -31,15 +31,7 @@ resources = {
     "money": 0
 }
 
-coins = {
-    "quarter" : 0.25,
-    "dime": 0.1,
-    "nickel": 0.05,
-    "penny": 0.01
-}
-
-
-# 1. Print Report 
+# TODO 1. Print Report 
 # 2. Check sufficient Resources
 # 3. Accept coins & check transaction successful
 # 4. Make coffee
